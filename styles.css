@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+#container {
+    border: 20px solid gray;
+    width: 330px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+
+}
+#display {
+    width: 328px;
+    height: 100px;
+    border: 1px solid black;
+
+}
+#keypad {
+    width: 328px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 20px;
+}
